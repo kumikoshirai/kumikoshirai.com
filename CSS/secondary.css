@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	color: #1d2c49;
+}
+
+h1 {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #1d2c49;
+	border-bottom: 1px solid #1d2c49;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #1d2c49;
+}
+
+h3 {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #1d2c49;
+}
+
+h4 {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #1d2c49;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.conditions {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	margin-left: 20px;
+}
+
+.current {
+	background-color: #abb4c7;
+}
+
+#wrapper {
+	width: 900px;
+	height: 675px;
+	margin: 10px auto;
+	position: relative;
+}
+
+#top {
+	width: 900px;
+	height: 25px;
+	background:url(../IMAGES/top-container.png) no-repeat;
+}
+
+#container {
+	width: 900px;
+	height: 575px;
+	background: url(../IMAGES/middle-container.png) repeat-y;
+}
+
+#header {
+	width: 275px;
+	height: 560px;
+	margin: 0px 0px 0px 35px;
+	padding: 0px 10px 0px 10px;
+	border-right: 1px solid #1d2c49;
+}
+
+#logo {
+	width: 175px;
+	height: 175px;
+	margin: 0px 50px 10px 50px;
+}
+
+#main-image {
+	width: 520px;
+	height: 270px;
+	position: absolute;
+	left: 350px;
+	top: 26px;
+	background-image:url(../IMAGES/cherry-blossom.jpg);
+	background-repeat: no-repeat;
+}
+
+#content {
+	width: 517px;
+	height: 560px;
+	position: absolute;
+	left: 358px;
+	top: 26px;
+}
+
+#bio {
+	width: 517px;
+	height: 645px;
+	position: absolute;
+	left: 358px;
+	top: 26px;
+}
+
+#bio-content {
+	width: 517px;
+	height: 605px;
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 42px;
+}
+
+#lectures-content {
+	width: 284px;
+	height: 517px;
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 41px;
+}
+
+#locations-content {
+	width: 525px;
+	height: 517px;
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 41px;
+}
+
+#locations-container {
+	width: 900px;
+	height: 575px;
+	background: url(/IMAGES/middle-container.png) repeat-y;
+}
+
+#services-content {
+	width: 280px;
+	height: 517px;
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 41px;
+}
+
+#patient-content {
+	width: 280px;
+	height: 517px;
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 41px;
+}
+
+#welcome {
+	width: 517px;
+	height: 516px;
+	position: absolute;
+	float: right;
+	left: 0px;
+	top: 42px;
+}
+
+#lectures {
+	width: 204px;
+	height: 213px;
+	position: absolute;
+	float: right;
+	left: 291px;
+	top: 40px;
+	padding: 10px;
+	border: 1px solid #1d2c49;
+}
+
+#footer {
+	height: 20px;
+	position: absolute;
+	left: 28px;
+	top: 624px;
+}
+
+#bottom {
+	width: 900px;
+	height: 25px;
+	background:url(/IMAGES/bottom-container.png) no-repeat;
+}
+
+/* ----------------- Links --------------------- */
+#photo1 {
+	width: 222px;
+	height: 200px;
+	border: 1px solid black;
+	position:absolute;
+	left: 296px;
+	top: 42px;
+}
+
+#photo2 {
+	width: 222px;
+	height: 200px;
+	border: 1px solid black;
+	position:absolute;
+	left: 296px;
+	top: 259px;
+}
+
+
+/* ----------------- Links --------------------- */
+
+a {
+	text-decoration: underline;
+	color: #1d2c49;
+}
+
+a:hover {
+	background-color: #abb4c7;
+}
+
+#wrapper #container #header a {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	color: #1D2C49;
+	text-decoration: none;
+}
+
+#wrapper #container #header a:hover {
+	background-color: #abb4c7;
+}
+
+#wrapper #container #header #menu a {
+	font: 16px "Trebuchet MS",Arial,sans-serif;
+	color: #1D2C49;
+	text-decoration: none;
+	line-height: 20px;
+	margin-left: 20px;
+	width: 250px;
+}
+
+#wrapper #container #header #menu a:hover {
+	background-color: #abb4c7;
+}
+
+#wrapper #container #header #logo img {
+	text-decoration: none;
+	border: none;
+	background-color: #FFF;
+}
+#wrapper #container #content #welcome li {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	color: #1D2C49;
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 12px;
+}
+#wrapper #container #content #welcome td {
+	font: 14px "Trebuchet MS",Arial,sans-serif;
+	color: #1D2C49;
+	border-bottom: 1px solid #1d2c49;
+	padding: 10px 5px 5px 5px;
+}
+
+table {
+
+}
